@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<body class="bg-stone-200 flex flex-col">
+    <section id="carrinho" class="fixed top-0 right-0 bg-slate-950 h-screen w-[350px]  text-slate-200 z-20 border-l border-slate-200 p-5 flex flex-col justify-between ">
+        <div id="cabecalho-carrinho" class="flex justify-between m-4">
+           <p >Meu carrinho</p>
+           <button ><i id="fechar-carrinho" class="fa-regular fa-circle-xmark"></i></button>
+        </div>
+
+        <section id="produtos-carrinho" class="m-4 h-3/5 overflow-y-auto flex flex-col gap-5">
+          
+         
+        </section>
+
+        <p id="preco-total" class="bg-slate-200 text-green-700 rounded-sm p-2 text-center"></p>
+        <button class="bg-slate-200 text-slate-900">Finalizar Compra</button>
+    </section>
+      <header class="flex bg-slate-950 text-xl sticky top-0 p-5 shadow-xl shadow-slate-200 z-10 justify-between items-center px-20">
+         <img src="assets/img/hashtag.svg" class="h-16"  alt="logo-magazine">
+      <div class="text-white flex gap-10"> 
+        
+        <button id="open-cart" ><i class="fa-solid fa-cart-shopping "></i></button>
+       
+         <button><i class="fa-solid fa-user"></i></button>
+       
+       
+        </div>
+      </header>
+      <main > 
+         <section id="container-produto" class="flex flex-wrap p-10 justify-center gap-10">
+           <div class="card-produto-1">
+
+         </section>
+      </main>
+      
+      <script type="module" src="main.js"></script>
+</body>
+</html>
